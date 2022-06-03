@@ -15,7 +15,7 @@ function Form() {
                 <label className="form-label">Enter your name:</label><br/>
                 <input className="form-inputs" {...register("name", { required: true, maxLength: 20 })}placeholder="Name" /><br/>
                 <label className="form-label">Enter your email:</label><br/>
-                <input className="form-inputs" {...register("lastName", { pattern: /^[A-Za-z]+$/i })}placeholder="Email" /><br/>
+                <input className="form-inputs" {...register("lastName")}placeholder="Email" /><br/>
                 <label className="form-label">Enter your message:</label><br/>
                 <textarea className="form-inputs" {...register("aboutYou",{ required: true, minLength: 10 })} placeholder="Message"  /><br/>
                 <input className="form-input-btn" type="submit" />
