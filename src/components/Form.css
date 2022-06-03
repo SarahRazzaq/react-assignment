@@ -1,0 +1,81 @@
+.container {
+  margin: 20px;
+  border-radius: 0 10px 10px 0;
+  background: linear-gradient(90deg, rgb(78, 78, 80) 0%, rgb(36, 34, 34) 100%);
+  max-width: 500px;
+  height: 700px;
+ 
+}
+form{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form-h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: #fff;
+}
+ 
+p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 0.8rem;
+  color: #0c0b0b;
+}
+.form-input::placeholder {
+  color: #595959;
+  font-size: 12px;
+}
+ 
+.form-input-btn {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 176, 255) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+}
+ 
+.form-input-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+.form-label{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+color: rgb(241, 235, 235);
+font-size: 18px;
+font-weight: bold;
+}
+.form-inputs{
+padding: 5px 20px;
+margin: 10px;
+width: 300px;
+box-sizing: border-box;
+}
+textarea{
+padding: 5px 20px;
+margin: 10px;
+width: 300px;
+box-sizing: border-box;
+}
+.message-box{
+  margin-top: 20px;
+  width:400px;
+  height: 100px;
+  background-color: #fff;
+  overflow: hidden;
+ 
+}
