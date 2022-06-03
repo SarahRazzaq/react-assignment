@@ -7,11 +7,9 @@ const Home = () => {
       <h1>Home</h1>
       <h2>A little about me</h2>
       <div className="home-container">
-      <p>Jag heter Sarah och är 37 år gammal. Jag bor i Veberöd.
-      I mitt liv finns väldigt mycket musik. Jag sjunger själv i kör eller på olika tillställningar</p>
+      <h4>My name is Sarah and I'm 37 years old. I live with my family in a small place called Veberöd.There's not a lot going on here but we do have a lot of music project. I sing in a barbershop chorus and and perfom as a solo artist on different events.</h4>
       <img src={require('../images/image1.jpeg')} alt="girl_with_umberella"  />
-      <p>Min familj, både barn och syskon, håller också, på något sätt, på med musik.
-      Man kan enkelt säga att musik flyter i våra ådror.</p>
+      <h4> I come from a family where music has always been an important part of who we are. My closest family, children and sibblings, have, in one way or another, a little music in our every day lives. We are the ones who spontaneousely can burst in to harmonies or a musical performance. Music truly runs through ou veins.</h4>
       </div>
     </>;
   };
