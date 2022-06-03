@@ -8,7 +8,7 @@ const [openModal, setOpenModal] = useState (false);
 
   return ( 
     <div>
-      <h2>If you want music on you event, let me know!</h2>
+      <h2>If you want music on your event, let me know!</h2>
         <div className="contact-container">
           <Form/>
           <button 
