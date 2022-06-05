@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
  
-function Form() {
-    const { register, formState: { errors }, handleSubmit } = useForm();
+const Form =() => {
+    const { register, handleSubmit } = useForm();
     const [data, setData] = useState("");
 
 
@@ -17,7 +17,7 @@ function Form() {
                 <label className="form-label">Enter your email:</label><br/>
                 <input className="form-inputs" {...register("lastName")}placeholder="Email" /><br/>
                 <label className="form-label">Enter your message:</label><br/>
-                <textarea className="form-inputs" {...register("aboutYou",{ required: true, minLength: 10 })} placeholder="Message"  /><br/>
+                <textarea className="form-inputs" {...register("aboutYou",{ required: true, minLength: 4 })} placeholder="Message"  /><br/>
                 <input className="form-input-btn" type="submit" />
                 <div className="message-box">
                 <p>{data}</p>
